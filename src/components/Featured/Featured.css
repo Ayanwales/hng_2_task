@@ -1,0 +1,26 @@
+.featured{
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.featured-movie{
+    font-family: 'DM sans';
+    font-size: 32px;
+    font-weight: 700;
+    margin-left: 25px;
+    text-align: left;
+    padding: 10px;
+    line-height: 1.6;
+    color: black;
+}
+.see-more{
+    display: flex;
+    margin: 15px 5px 15px 15px;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    font-family: "DM sans";
+    font-weight: 400;
+    color: brown;
+}

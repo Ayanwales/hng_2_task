@@ -1,0 +1,94 @@
+.nav-class{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    margin-left: 70px;
+    justify-content: space-between;
+}
+.nav-icon{
+    align-items: center;
+    display: flex;
+}
+.img-nav{
+    margin-left: 20px;
+}
+.logo-header{
+    font-size: 16px;
+    margin: 20px;
+    font-weight: 500;
+    font-family: 'DM Sans';
+    line-height: 1.4;
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+}
+.searchMovie{
+    width: 50%;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search-form{
+    margin-left: 40px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search {
+    float: right;
+    margin-left: -40px;
+    margin-bottom:-4px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+  }
+input[type=text]::placeholder{
+    font-size: 16px;
+}
+input[type=text]:focus{
+    outline: none;
+}
+input[type=text]{
+    padding: 5px;
+    width: 100%;
+    font-size: 16px;
+    font-family: 'DM Sans';
+    font-weight: 400;
+    border: 2px solid #d1d5db;
+    border-radius: 8px;    
+    color: white;
+    background-color: inherit;
+}
+
+.menu-list{
+    width: 20%;
+    display: flex;
+    align-items: center;
+
+}
+a{
+    font-size: 12px;
+    padding: 4px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+}
+.red-bg{
+    margin: 10px;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgb(197, 57, 33);
+}
+.icon{
+    font-size: 12px;
+    padding: 10px;
+    color: white;
+    font-weight: 300;
+}
+
+
+
+

@@ -1,0 +1,44 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+}
+.social-icons{
+    display: flex;
+    color: black;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+    font-size: 14px;
+}
+.social-icons a svg{
+    font-size: 16px;
+    color: black;
+    margin: 20px;
+    padding: 10px;
+}
+.social-links{
+    display: flex;
+    color: black;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 14px;
+}
+.social-links a{
+    font-size: 16px;
+    margin: 20px;
+    padding: 10px;
+    color: black;
+}
+.footer-paragraph{
+    text-align: center;
+    margin: 10px;
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'DM sans';
+}

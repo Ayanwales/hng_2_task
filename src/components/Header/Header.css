@@ -1,0 +1,109 @@
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.header{
+    width: 25%;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.description-box{
+    align-items: center;
+    width: 100%;
+}
+.header-title{
+    font-size: 48px;
+    margin-left: 65px;
+    font-family: 'DM Sans';
+    font-weight: 700;
+    color: white;
+    text-align: left;
+    line-height: 56px;
+    width: 95%;
+}
+.header-title span{
+    font-size: 48px;
+    text-align: left;
+}
+
+.rating-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.rating-section div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+img.img-logo{
+    margin-left: 60px;
+}
+.imdb-section span,.tomatoes-section span{
+    font-size: 12px;
+    font-family: 'DM sans';
+    font-weight: 300;
+    color: white;
+}
+.description-content{
+    width: 55%;
+}
+.description-paragraph{
+    font-size: 14px;
+    width: 83%;
+    margin-left: 45px;
+    padding-left: 15px;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 1.6;
+    color: white;
+    font-family: 'DM sans';
+}
+.button-rating{
+    margin-left: 65px;
+    background-color: brown;
+    border: 1px solid brown;
+    border-radius: 8px;
+    width: 60%;
+    padding: 2px;
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+}
+.button-rating div{
+    background-color: white;
+    border-radius: 50%;
+    padding: 2px;
+    margin: 10px;
+    align-items: center;
+
+}
+.play{
+    font-size: 8px;
+    padding: 12px;
+    color: brown;
+}
+.watch{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    font-family: 'Dm sans';
+}
+.header-number{
+ width: 2%;
+ margin: 10px;
+ display: flex;
+ flex-direction: column;
+}   
+p{
+    font-size: 8px;
+    color: white;
+    font-weight: 400;
+    font-family: 'DM Sans';
+}
